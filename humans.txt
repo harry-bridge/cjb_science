@@ -1,0 +1,10 @@
+/* TEAM */
+Development/Project Lead: Harry Bridge.
+Contact info [at] harrybridge.co.uk
+From: Oxford, UK
+
+/* SITE */
+Last update: {{site.time | date: "%Y-%m-%d" }}
+Doctype: HTML5
+Components: Materialize, jQuery, Hugo
+Software: Sublime Text, GitKraken
