@@ -1,0 +1,51 @@
+@import "components/color";
+
+$nav-font-color: #f37570;
+
+#full-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+#oops {
+  margin-top: 10%;
+  text-align: center;
+}
+
+#btn {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.large_text {
+  font-size: 600%;
+}
+
+#logo-wrapper {
+  text-align: center;
+  background: #f9f0ea;
+}
+
+.logo {
+  max-height: 10em;
+  width: auto;
+  margin-top: 1.2%;
+  margin-bottom: 1%
+}
+
+.home {
+  margin: 3em 0;
+}
+
+.justify-nav {
+  text-align: justify;
+  font-size: 0;
+
+  :after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+}
