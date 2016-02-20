@@ -1,3 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://science.harrybridge.co.uk/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Chris Bridge Science"
+PluralizeListTitles=false
+canonifyurls = false
