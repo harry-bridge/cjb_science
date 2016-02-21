@@ -2,6 +2,11 @@
 
 $nav-font-color: #f37570;
 
+body {
+  background-image: url('/imgs/crossword.png');
+  background-repeat: repeat;
+}
+
 #full-page {
   height: 100vh;
   width: 100vw;
