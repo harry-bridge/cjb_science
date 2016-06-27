@@ -6,8 +6,23 @@
     <description>Recent content on Chris Bridge Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 26 Jun 2016 16:24:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jun 2016 23:09:37 +0100</lastBuildDate>
     <atom:link href="http://science.harrybridge.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>News</title>
+      <link>http://science.harrybridge.co.uk/news/</link>
+      <pubDate>Sun, 26 Jun 2016 23:09:37 +0100</pubDate>
+      
+      <guid>http://science.harrybridge.co.uk/news/</guid>
+      <description>&lt;p&gt;Here is some news that you may enjoy and some &lt;a href=&#34;http://science.harrybridge.co.uk/&#34;&gt;links&lt;/a&gt; to random &lt;a href=&#34;http://science.harrybridge.co.uk/year/year7&#34;&gt;places&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You could put upcoming events here, maybe.&lt;/p&gt;
+
+&lt;p&gt;Those pictures up there are rather boring aren&amp;rsquo;t they.
+Probably should change the main one.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Year 7</title>
@@ -25,6 +40,36 @@ fun, or not, your choice, to get started &lt;a href=&#34;http://goo.gl/GlTFma&#3
 &lt;h2 id=&#34;less-fun-things&#34;&gt;Less fun things&lt;/h2&gt;
 
 &lt;p&gt;All the other things apart from the prescribed fun things above&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Year 8</title>
+      <link>http://science.harrybridge.co.uk/year/year8/</link>
+      <pubDate>Mon, 27 Jun 2016 13:37:37 +0100</pubDate>
+      
+      <guid>http://science.harrybridge.co.uk/year/year8/</guid>
+      <description>&lt;p&gt;A page for the year 8 peeps.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Year 9</title>
+      <link>http://science.harrybridge.co.uk/year/year9/</link>
+      <pubDate>Mon, 27 Jun 2016 13:37:45 +0100</pubDate>
+      
+      <guid>http://science.harrybridge.co.uk/year/year9/</guid>
+      <description>&lt;p&gt;Year 9 things&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Year 10</title>
+      <link>http://science.harrybridge.co.uk/year/year10/</link>
+      <pubDate>Mon, 27 Jun 2016 13:37:41 +0100</pubDate>
+      
+      <guid>http://science.harrybridge.co.uk/year/year10/</guid>
+      <description>&lt;p&gt;Year 10 things&lt;/p&gt;
 </description>
     </item>
     
