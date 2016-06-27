@@ -4,7 +4,7 @@
   {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
       <li><a data-prooder-ignore class="dropdown-button" data-activates="dropdown-{{.Identifier}}" href="{{.URL}}">{{.Name}} <i class="material-icons right">arrow_drop_down</i></a></li>
-      <ul id="dropdown-{{.Identifier}}" class="dropdown-content">
+      <ul data-proofer-ignore id="dropdown-{{.Identifier}}" class="dropdown-content">
         <li><a data-proofer-ignore href="{{.URL}}">{{.Name}}</a></li>
         {{ range .Children }}
           <li><a href="{{.URL}}">{{.Name}}</a></li>
