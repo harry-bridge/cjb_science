@@ -8,8 +8,8 @@ canonifyurls = false
 # photo = "photo"
 # title = "title"
 
-# [[menu.main]]
-#     name = "Years"
-#     weight = 1
-#     identifier = "years"
-#     url = "/years/"
+[[menu.main]]
+    name = "Years"
+    weight = 0
+    identifier = "Years"
+    url = "/year/"

@@ -14,7 +14,7 @@ before_script:
 script:
  - bin/compass compile -e production --force
  - hugo
- - bundle exec htmlproof public
+ - bundle exec htmlproof public --disable-external
 after_script:
   - _bin/deploy.sh
 branches:

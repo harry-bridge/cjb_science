@@ -1,0 +1,48 @@
+{{ partial "head.html" . }}
+<header>
+</header>
+  <div class="parallax-container" id="index-banner">
+    <nav id="main-nav" class="container">
+      {{ partial "nav.html" . }}
+    </nav>
+
+    <div class="valign-wrapper" id="splash-logo">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h1 class="white-text">Years</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="/imgs/chemistry.jpg" alt="Chemistry">
+    </div>
+  </div>
+
+<main>
+  <article>
+  <div class="container">
+    {{ $last := sub (len .Data.Pages) 1 }}
+
+      {{ range $index, $item := .Data.Pages }}
+
+        {{ if eq (mod $index 2) 0 }}
+        <div class="row">
+        {{ end }}
+
+        <div class="col s12 m6{{ if and (eq $index $last) (eq (mod $index 2) 0) }} offset-m3{{ end }}">
+          {{ $item.Render "summary" }}
+        </div>
+        
+        {{ if or (eq $index $last) (eq (mod $index 2) 1) }}
+        </div>
+        {{ end }}
+
+        {{ $index := add $index 1 }}
+
+      {{ end }}
+  </div>
+  </article>
+</main>
+{{ partial "footer.html" . }}

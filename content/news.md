@@ -1,13 +1,13 @@
 ---
 date: "2016-06-26T23:09:37+01:00"
-draft: true
+draft: false
 title: "News"
 type: "news"
 
 links: [
-  "/this_place",
-  "/and_this",
-  "/ooh_this_one",
+  "/",
+  "/",
+  "/",
 ]
 
 link_descriptions: [

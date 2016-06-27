@@ -26,7 +26,6 @@
     {{ $len := len (where .Data.Pages "Type" "year" )}}
     {{ $last := sub $len 1}}
     {{ range $index, $item := (where .Data.Pages "Type" "year") }}
-      {{ if eq $item.Type "year" }}
         {{ if eq (mod $index 2) 0 }}
           <div class="row" {{if (eq $index 0)}} style="margin-top:20px" {{end}}>
         {{ end }}
@@ -40,7 +39,6 @@
           </div>
         {{ end }}
       {{ end }}
-    {{ end }}
     </div>
   </div>
   <div class="parallax-container">

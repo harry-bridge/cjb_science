@@ -6,6 +6,8 @@ photo = "year7.png"
 weight = 1
 toc = "true"
 
+summary = "A place for some other things"
+
 [menu.main]
   parent = "Years"
 +++
