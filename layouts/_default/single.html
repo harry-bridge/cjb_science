@@ -1,0 +1,30 @@
+{{ partial "head.html" . }}
+<header>
+</header>
+  <div class="parallax-container" id="index-banner">
+    <nav id="main-nav" class="container">
+      {{ partial "nav.html" . }}
+    </nav>
+
+    <div class="valign-wrapper" id="splash-logo">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <img src="/imgs/cb_science_logo.png" alt="Chris Bridge Scicence" class="responsive-img" style="max-width: 40em;" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="/imgs/chemistry.jpg" alt="Week One Finale 2014">
+    </div>
+  </div>
+
+<main>
+  <article>
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+{{ partial "footer.html" . }}

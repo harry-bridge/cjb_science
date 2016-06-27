@@ -1,5 +1,15 @@
 baseurl = "http://science.harrybridge.co.uk/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Chris Bridge Science"
 PluralizeListTitles=false
 canonifyurls = false
+
+# [taxonomies]
+# photo = "photo"
+# title = "title"
+
+# [[menu.main]]
+#     name = "Years"
+#     weight = 1
+#     identifier = "years"
+#     url = "/years/"

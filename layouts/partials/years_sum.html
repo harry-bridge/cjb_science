@@ -1,0 +1,30 @@
+{{ $last := sub (len $.Site.Data.years.years) 1 }}
+
+    {{ range $index, $item := $.Site.Data.years.years }}
+
+      {{ if eq (mod $index 2) 0 }}
+      <div class="row" {{if (eq $index 0)}} style="margin-top:20px" {{end}}>
+      {{ end }}
+
+      <div class="col s12 m6{{ if and (eq $index $last) (eq (mod $index 2) 0) }} offset-m3{{ end }}">
+        
+        <div class="row valign-wrapper">
+          {{ if $item.photo }}
+            <div class="col s4">
+            <img src="{{$item.photo}}" class="responsive-img circle year-photo valign" alt="{{$item.year}}" />
+            </div>
+          {{ end }}
+          <div class="col s8">
+          <h3 class="pastel-text text-dark-brown">Year {{$item.year}}</h3>
+          </div>
+        </div>
+
+      </div>
+      
+      {{ if or (eq $index $last) (eq (mod $index 2) 1) }}
+      </div>
+      {{ end }}
+
+      {{ $index := add $index 1 }}
+
+    {{ end }}

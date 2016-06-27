@@ -1,0 +1,24 @@
+photos:
+  -
+    photo: /imgs/index/1.jpg
+    title: 1
+    caption: 
+    placement: left
+
+  -
+    photo: /imgs/index/2.jpg
+    title: 2
+    caption: 
+    placement: right
+
+  -
+    photo: /imgs/index/3.jpg
+    title: 3
+    caption: 
+    placement: center
+
+  -
+    photo: /imgs/index/4.jpg
+    title: 4
+    caption: 
+    placement: right

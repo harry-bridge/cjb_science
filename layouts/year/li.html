@@ -1,0 +1,14 @@
+<div class="row valign-wrapper">
+  {{ if .Params.photo }}
+    <div class="col s4">
+    <a href="{{.Permalink}}">
+    <img src="/imgs/years/{{.Params.photo}}" class="responsive-img circle year-photo valign" alt="{{.Title}}" />
+    </a>
+    </div>
+  {{ end }}
+  <div class="col s8">
+  <a href="{{.Permalink}}">
+    <h3 class="pastel-text text-dark-brown">{{ .Title }}</h3>
+  </a>
+  </div>
+</div>
